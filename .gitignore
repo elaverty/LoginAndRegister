@@ -8,12 +8,9 @@ configs/
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Dependency directories
 node_modules/
-jspm_packages/
 
 # Optional npm cache directory
 .npm
@@ -21,7 +18,7 @@ jspm_packages/
 # Output of 'npm pack'
 *.tgz
 
-# Random crap
+# Random stuff
 trash
 .DS_Store
 .sass-cache
@@ -30,13 +27,8 @@ trash
 .trashes
 *~
 
-# Gatsby related
-.cache/
-public
 
 # Editor
 .vscode
 .vscode-test
-*.sublime-project
-*.sublime-workspace
 sftp-config.json
