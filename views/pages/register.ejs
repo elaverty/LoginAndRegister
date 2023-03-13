@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/header') %>
+</head>
+
+<body>
+    <div class="container" style="width: 50%; margin-top:100px;">
+
+        <h2>Register for a user account</h2>
+
+      
+            <form action="/newReg" method="POST">
+
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control" placeholder="" name="firstName">
+                    <label>First name</label>
+                </div>
+
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control" placeholder="" name="lastName">
+                    <label>Last name</label>
+                </div>
+
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control" placeholder="" name="email">
+                    <label>Email address</label>
+                </div>
+
+                <div class="form-group mb-3">
+                    <input type="password" class="form-control" placeholder="" name="password">
+                    <label>Password</label>
+                </div>
+
+                <div class="d-grid mt-3">
+                    <button type="submit" class="btn btn-primary form-control">Submit</button>
+                </div>
+
+            </form>
+
+            <div class="text-center" style="margin-top: 20px">
+                <p>Already have an account? <a href="/">Login</a></p>
+            </div>      
+    </div>
+</body>
+
+</html>
